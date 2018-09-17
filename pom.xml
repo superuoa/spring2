@@ -44,6 +44,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>springJar-8</finalName>
 	</build>
 
 
