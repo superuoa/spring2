@@ -34,7 +34,7 @@ public class HelloController {
 	@GetMapping("/getUser")
     public List<User> getUser(@RequestParam(value="name",defaultValue="ALL") String name) {
 		
-		System.out.println("DDDDDDDDDDDDDDDDDDDDDddd");
+		System.out.println("DDDDDDDDDDDDDDDDDDDDDddd---3");
 		
 		String sql = "SELECT * FROM users WHERE firstname like ?";
         List<Object> params = new ArrayList<Object>();
