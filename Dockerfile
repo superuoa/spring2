@@ -1,3 +1,4 @@
-FROM java:8
-ADD /springJar-8.jar //
-ENTRYPOINT ["java", "-jar", "/springJar-8.jar"]
+FROM openjdk:8
+ADD target/springJar-8.jar springJar-8.jar
+EXPOSE 8085
+ENTRYPOINT ["java", "-jar", "springJar-8.jar"]
